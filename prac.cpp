@@ -93,8 +93,8 @@ int main(){
     Developer d = Developer("saldina", "YT-Code", 25, "C++");
     Teacher t = Teacher("Jack", "Cool school", 35, "History");
 
-    Employee* e1 = &d;
-    Employee* e2 = &t;
+    // Employee* e1 = &d;
+    // Employee* e2 = &t;
 
     e1->Work();
     e2->Work();    
